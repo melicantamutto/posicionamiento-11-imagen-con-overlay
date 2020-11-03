@@ -1,0 +1,27 @@
+main{
+    width: 800px;
+    height: 500px;
+    background-image: url(./image/betty.png);
+    background-size: cover;
+    background-position: center;
+}
+.filter{
+    background-color: rgba(243, 243, 233, 0.5);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+article{
+    border: 2.5px solid ivory;
+    color: rgb(46, 43, 41);
+    font-family: 'Cutive Mono', monospace;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
